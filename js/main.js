@@ -49,13 +49,13 @@ $(document).ready(function(){
 
 
 /* Magnific Popup */
-$('.grid-wrapper').magnificPopup({
-		  delegate: 'a', 
-		  type: 'image',
-		  gallery:{
-			enabled:true
-		  }
-		});
+//$('.grid-wrapper').magnificPopup({
+//		  delegate: 'a',
+//		  type: 'image',
+//		  gallery:{
+//			enabled:true
+//		  }
+//		});
 
 
 
@@ -95,9 +95,9 @@ $('.chart').waypoint(function() {
 		$.vegas('slideshow', {
 			  backgrounds:[
 				
-				{ src:'img/slider/01.jpg', fade:1000 },
+				{ src:'img/slider/utah-lake.jpg', fade:1000 },
 				{ src:'img/slider/02.jpg', fade:1000 },
-				{ src:'img/slider/03.jpg', fade:1000 },
+				{ src:'img/slider/Provo.jpg', fade:1000 },
 				{ src:'img/slider/04.jpg', fade:1000 }
 			  ]
 			})('overlay', {
